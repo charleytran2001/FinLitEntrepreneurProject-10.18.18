@@ -1,15 +1,19 @@
-/* Header Styles */
+body {
+    
+}
 
-header {
-    font-size: 2em;
-    text-align: center;
-    padding: 2%;
+#homeimg {
+    background-color: black;
 }
 
 /* Navigation Bar Styles */
 
 nav ul {
+    position: fixed;
+    width: 100%;
     text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
 }
 
 nav li {
@@ -19,26 +23,35 @@ nav li {
 nav a {
     display: inline-block;
     text-decoration: none;
-    padding: 0 1% 1% 1%;
-    color: black;
+    padding: 1% 3% 1% 3%;
+    color: white;
+    transition-duration: .2s;
 }
 
 nav a:hover, #active {
-    color: blue;
+    color: darkgray;
 }
+
+/* Header Styles */
+
+/* header {
+    font-size: 2em;
+    text-align: center;
+    padding: 2%;
+} */
 
 /* Body Styles */
 
-div#homeimg img {
-    position: relative;
-    width: 100%;
-    filter: brightness(90%);
+.text {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 5%;
 }
 
-.text {
-    position: absolute;
-    color: white;
-    font-size: 5em;
-    bottom: 50%;
-    left: 5%;
+div#homeimg img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
