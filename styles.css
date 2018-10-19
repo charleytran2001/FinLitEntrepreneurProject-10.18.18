@@ -20,3 +20,25 @@ nav a {
     display: inline-block;
     text-decoration: none;
     padding: 0 1% 1% 1%;
+    color: black;
+}
+
+nav a:hover, #active {
+    color: blue;
+}
+
+/* Body Styles */
+
+div#homeimg img {
+    position: relative;
+    width: 100%;
+    filter: brightness(90%);
+}
+
+.text {
+    position: absolute;
+    color: white;
+    font-size: 5em;
+    bottom: 50%;
+    left: 5%;
+}
