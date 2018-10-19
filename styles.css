@@ -1,0 +1,22 @@
+/* Header Styles */
+
+header {
+    font-size: 2em;
+    text-align: center;
+    padding: 2%;
+}
+
+/* Navigation Bar Styles */
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 1% 1% 1%;
