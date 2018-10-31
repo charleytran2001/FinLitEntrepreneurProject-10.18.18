@@ -76,3 +76,10 @@ div#main1 img {
 }
 
 /* Part 3 */
+div#main2 {
+    margin-top: 10px;
+}
+
+div#main2 img {
+    width: 100%;
+}
